@@ -1,9 +1,6 @@
 def welcome():
     print('''
-Welcome to Calculator
-''')
-
-# Don’t forget to call the function
+I'm not a pro yet, i'm a work in progress... WELCOME, i'm a calculator.''')
 
 def calculate():
     operation = input('''
@@ -31,7 +28,13 @@ Please type in the math operation you would like to complete:
 
     elif operation == '/':
         print('{} / {} = '.format(number_1, number_2))
-        print(number_1 / number_2)
+
+        if number_2 == '0':
+            print('0')
+        else:
+            print(number_1 / number_2)
+
+
 
     else:
         print('Stop messing aroud and type a valid operator!!!')
