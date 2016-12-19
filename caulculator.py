@@ -29,10 +29,8 @@ Please type in the math operation you would like to complete:
     elif operation == '/':
         print('{} / {} = '.format(number_1, number_2))
 
-        if number_2 == '0':
-            print('0')
-        else:
-            print(number_1 / number_2)
+
+        print(number_1 / number_2)
 
 
 
