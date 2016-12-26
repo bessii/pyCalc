@@ -32,8 +32,6 @@ Please type in the math operation you would like to complete:
 
         print(number_1 / number_2)
 
-
-
     else:
         print('Stop messing aroud and type a valid operator!!!')
 
@@ -52,6 +50,5 @@ Please type Y for YES or N for NO.
         print('See you later... Come back soon for another ride :)')
     else:
         again()
-# Don’t forget to call the function
-welcome()
+
 calculate()
