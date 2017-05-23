@@ -14,8 +14,8 @@ Please type in the math operation you would like to complete:
 / for division
 ''')
 
-    number_1 = int(input('Please enter the first number: '))
-    number_2 = int(input('Please enter the second number: '))
+    number_1 = float(input('Please enter the first number: '))
+    number_2 = float(input('Please enter the second number: '))
 
     if operation == '+':
         print('{} + {} = '.format(number_1, number_2))
@@ -34,7 +34,7 @@ Please type in the math operation you would like to complete:
         print(number_1 / number_2)
 
     else:
-        print('You have not typed a valid operator, please run the program again.')
+        print('Stop messing aroud and type a valid operator!!!')
 
     # Add again() function to calculate() function
     again()
@@ -48,7 +48,7 @@ Please type Y for YES or N for NO.
     if calc_again.upper() == 'Y':
         calculate()
     elif calc_again.upper() == 'N':
-        print('See you later.')
+        print('See you later... Come back soon for another ride :)')
     else:
         again()
 # Don’t forget to call the function
