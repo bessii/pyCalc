@@ -1,6 +1,6 @@
 def welcome():
     print('''
-I'm not a pro yet, i'm a work in progress... WELCOME, i'm a calculator.''')
+     WELCOME, i'm a calculator.''')
 
 def calculate():
     operation = input('''
